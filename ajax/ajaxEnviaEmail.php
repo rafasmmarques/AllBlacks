@@ -50,11 +50,11 @@ if(isset($_POST)){
 
     $mail->SMTPAuth = true;
 
-    $mail->Username = "rafael.angiofix@gmail.com"; //email real (Gmail) para usar o host STMP da Google
+    $mail->Username = "exemplo@gmail.com"; //email real (Gmail) para usar o host STMP da Google
 
-    $mail->Password = "angiofix"; //senha real do email acima
+    $mail->Password = "senha"; //senha real do email acima
 
-    $mail->setFrom('rafael.angiofix@gmail.com', 'All Blacks'); //email real para enviar a mensagem (não necessariamente o mesmo usado para o host)
+    $mail->setFrom('exemplo@gmail.com', 'All Blacks'); //email real para enviar a mensagem (não necessariamente o mesmo usado para o host)
 
     if($broadcast === true){
         foreach ($torcedores as $dado){
