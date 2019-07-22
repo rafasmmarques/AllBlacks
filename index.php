@@ -20,6 +20,7 @@
     $torcedores = $bd->executaQuery($pdo,'SELECT * FROM torcedores ORDER BY nome');
 
     $bd->fechaBd($pdo);
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
