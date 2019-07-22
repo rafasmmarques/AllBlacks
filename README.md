@@ -26,6 +26,7 @@ Para o envio de alertas por e-mail aos torcedores, foi usado a biblioteca **PhpM
 O arquivo 'ajaxEnviaEmail.php', na pasta 'ajax', contém todas as configurações para o envio de e-mail para os torcedores. Recomenda-se também não alterar as configurações deste arquivo para a funcionalidade da aplicação. 
 (alterar apenas as linhas 53 e 55 com um endereço e senha Gmail válidos para o uso do servidor SMTP da própria Google).
 >53 $mail->Username = "email@gmail.com"; 
+
 >55 $mail->Password = "senha";
 
 ## Primeiros Passos
