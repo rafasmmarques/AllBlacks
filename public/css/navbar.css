@@ -1,0 +1,11 @@
+.nav-float-right{
+    width: 90%;!important;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-item:hover{
+    background-color: #adbc35;!important;
+    cursor: pointer;
+}
